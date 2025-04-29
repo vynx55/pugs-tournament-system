@@ -1,39 +1,42 @@
-Pugs Tournament System 🎮
-Sistema para gestionar torneos estilo Pick Up Game (PUG) en juegos competitivos.
+# 🏆 Pugs Tournament System (API)
 
-Este proyecto está actualmente en proceso de desarrollo. Algunas funcionalidades aún no están implementadas y el sistema podría tener cambios durante el desarrollo.
+Sistema backend para gestionar torneos estilo **Pick Up Game (PUG)** en juegos competitivos.
 
-Descripción 📜
-Este proyecto está en construcción y tiene como objetivo proporcionar una solución para organizar y administrar torneos PUG, permitiendo:
+> 🚧 Proyecto en desarrollo: Esta API servirá como base para un sistema completo que incluirá una interfaz en Angular más adelante.
 
-Creación de equipos 🤝
+---
 
-Asignación de partidas 🎮
+## 📌 Descripción
 
-Seguimiento de resultados 🏆
+Este proyecto busca proporcionar una solución para organizar y administrar torneos **PUG**, permitiendo:
 
-El sistema está siendo desarrollado con un backend en Java y un frontend en Angular, utilizando MySQL para la gestión de datos.
+- 🤝 Creación de equipos  
+- 🎮 Asignación automática de partidas  
+- 🏅 Registro y seguimiento de resultados  
 
-Características (En desarrollo) 🚧
-Creación de equipos: Los jugadores podrán formar equipos para participar en los torneos.
+---
 
-Asignación de partidas: El sistema asignará automáticamente las partidas entre los equipos registrados.
+## ⚙️ Tecnologías utilizadas
 
-Seguimiento de resultados: Se registrarán y mostrarán los resultados de cada partida.
+- **Lenguaje:** Java  
+- **Framework:** Spring Boot  
+- **Base de datos:** MySQL  
+- **ORM:** Spring Data JPA  
+- **Build tool:** Gradle
 
-Interfaz de usuario: Una interfaz interactiva desarrollada en Angular permitirá gestionar torneos y equipos.
+---
 
-Tecnologías 🔧
-Backend:
-Java (Spring Boot)
+## 🔧 Endpoints planeados (en desarrollo)
 
-Frontend:
-Angular
+- `POST /equipos`: Crear un nuevo equipo  
+- `GET /equipos`: Listar equipos registrados  
+- `POST /partidas`: Asignar partidas automáticamente  
+- `GET /resultados`: Consultar resultados de partidas
 
-Base de datos:
-MySQL
+---
 
-Otros:
-Spring Data JPA para interactuar con MySQL
+## 📅 Estado del proyecto
 
-Gradle como herramienta de construcción
+La API se encuentra en desarrollo inicial. A futuro se integrará con un frontend en Angular para ofrecer una interfaz interactiva.
+
+---
