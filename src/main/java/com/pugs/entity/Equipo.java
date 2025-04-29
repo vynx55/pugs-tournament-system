@@ -21,7 +21,7 @@ public class Equipo {
 
     private String nombre;
 
-    @OneToMany(mappedBy = "equipo")
+    @OneToMany(mappedBy = "equipo", fetch = FetchType.EAGER)
     private List<Usuario> jugadores;
 
     @ManyToMany
