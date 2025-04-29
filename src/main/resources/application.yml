@@ -7,6 +7,7 @@ spring:
     username: root
     password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -16,3 +17,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
         use_sql_comments: true
+
+jwt:
+  secret: mysupersecretkey12345678901234567890123456789012
+  expiration: 86400000

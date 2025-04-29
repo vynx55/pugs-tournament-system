@@ -43,4 +43,8 @@ public class Usuario {
     @JoinColumn(name = "equipo_id")
     private Equipo equipo;
 
+    public Usuario(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 }
